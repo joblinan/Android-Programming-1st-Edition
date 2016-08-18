@@ -34,6 +34,7 @@ public class QuizActivity extends Activity {
 		new TrueFalse(R.string.question_asia, true),
 	};
 	private int mCurrentIndex = 0;
+	//private boolean mIsCheater;
 	private boolean[] mCheatArray = new boolean[mQuestionBank.length];
 	
 	

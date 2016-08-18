@@ -34,6 +34,7 @@ public class QuizActivity extends Activity {
 		new TrueFalse(R.string.question_asia, true),
 	};
 	private int mCurrentIndex = 0;
+	//private boolean mIsCheater;
 	private boolean[] mCheatArray = new boolean[mQuestionBank.length];
 	
 	
@@ -118,6 +119,7 @@ public class QuizActivity extends Activity {
 				if(mCurrentIndex < 0) {
 					mCurrentIndex = mQuestionBank.length - 1;
 				}
+				//mIsCheater = false;
 				
 				updateQuestion();
 			}
@@ -128,6 +130,7 @@ public class QuizActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
+				//mIsCheater = false;
 				
 				updateQuestion();
 			}
