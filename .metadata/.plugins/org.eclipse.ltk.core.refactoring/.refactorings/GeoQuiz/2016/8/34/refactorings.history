@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void showAnswerText()&apos; from &apos;com.bignerdranch.android.geoquiz.CheatActivity.onCreate().new OnClickListener() {...}.onClick()&apos; to &apos;com.bignerdranch.android.geoquiz.CheatActivity&apos;&#x0A;- Original project: &apos;GeoQuiz&apos;&#x0A;- Method name: &apos;showAnswerText&apos;&#x0A;- Destination type: &apos;com.bignerdranch.android.geoquiz.CheatActivity&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;showAnswerText&apos;" destination="1" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.bignerdranch.android.geoquiz{CheatActivity.java" name="showAnswerText" replace="false" selection="1582 147" stamp="1471488870505" version="1.0" visibility="2"/>
+</session>
