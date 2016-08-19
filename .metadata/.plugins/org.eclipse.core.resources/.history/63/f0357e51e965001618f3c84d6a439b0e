@@ -62,7 +62,7 @@ public class CheatActivity extends Activity {
 			}
 		});
 		
-		mAPILevelTextView.setText(getString(R.string.API_level) + " " + Build.VERSION.SDK_INT);
+		mAPILevelTextView.setText("API Level " + Build.VERSION.SDK_INT);
 	}
 
 	@Override
